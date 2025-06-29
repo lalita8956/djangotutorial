@@ -1,4 +1,11 @@
-<h1>{{ question.question_text }}</h1>
+<html>
+<head>
+    <h1>Polls Result...!</h1>
+
+</head>
+<body style="background-color:pink;">
+
+<h2>{{ question.question_text }}</h2>
 
 <ol>
 {% for choice in question.choice_set.all %}
@@ -7,3 +14,5 @@
 </ol>
 
 <h2><a href="{% url 'polls:detail' question.id %}">Vote again?</a></h2>
+</body>
+</html>
