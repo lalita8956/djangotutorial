@@ -1,0 +1,14 @@
+p.large{
+    font-size: 60;
+}
+ 
+ 
+ ol a {
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background: url("white-cloud-blue-sky-sea_74190-4488.avif") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
